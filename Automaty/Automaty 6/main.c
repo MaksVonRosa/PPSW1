@@ -18,7 +18,7 @@ int main(){
 		switch(eLedState){
 			case LED_RIGHT:
 			if(eKeyboardRead() == BUTTON_1){
-				eLedState = LED_STOP;
+				eLedState = LED_STOP;//gittest
 			}
 			else{
 				LedStepRight();
